@@ -1,0 +1,91 @@
+# -*- coding: utf-8 -*-
+
+# Form implementation generated from reading ui file 'refresh_orders.ui'
+#
+# Created by: PyQt5 UI code generator 5.11.3
+#
+# WARNING! All changes made in this file will be lost!
+
+from PyQt5 import QtCore, QtGui, QtWidgets
+
+class Ui_refreshOrders(object):
+    def setupUi(self, refreshOrders):
+        refreshOrders.setObjectName("refreshOrders")
+        refreshOrders.resize(504, 338)
+        self.label = QtWidgets.QLabel(refreshOrders)
+        self.label.setGeometry(QtCore.QRect(50, 40, 151, 31))
+        font = QtGui.QFont()
+        font.setFamily("Agency FB")
+        font.setPointSize(14)
+        font.setBold(True)
+        font.setWeight(75)
+        self.label.setFont(font)
+        self.label.setObjectName("label")
+        self.orderid = QtWidgets.QLineEdit(refreshOrders)
+        self.orderid.setGeometry(QtCore.QRect(220, 40, 231, 31))
+        self.orderid.setObjectName("orderid")
+        self.reok = QtWidgets.QPushButton(refreshOrders)
+        self.reok.setGeometry(QtCore.QRect(210, 300, 75, 23))
+        self.reok.setObjectName("reok")
+        self.label_2 = QtWidgets.QLabel(refreshOrders)
+        self.label_2.setGeometry(QtCore.QRect(50, 90, 151, 31))
+        font = QtGui.QFont()
+        font.setFamily("Agency FB")
+        font.setPointSize(14)
+        font.setBold(True)
+        font.setWeight(75)
+        self.label_2.setFont(font)
+        self.label_2.setObjectName("label_2")
+        self.userid = QtWidgets.QLineEdit(refreshOrders)
+        self.userid.setGeometry(QtCore.QRect(220, 90, 231, 31))
+        self.userid.setObjectName("userid")
+        self.label_3 = QtWidgets.QLabel(refreshOrders)
+        self.label_3.setGeometry(QtCore.QRect(50, 140, 151, 31))
+        font = QtGui.QFont()
+        font.setFamily("Agency FB")
+        font.setPointSize(14)
+        font.setBold(True)
+        font.setWeight(75)
+        self.label_3.setFont(font)
+        self.label_3.setObjectName("label_3")
+        self.ticketid = QtWidgets.QLineEdit(refreshOrders)
+        self.ticketid.setGeometry(QtCore.QRect(220, 140, 231, 31))
+        self.ticketid.setObjectName("ticketid")
+        self.label_5 = QtWidgets.QLabel(refreshOrders)
+        self.label_5.setGeometry(QtCore.QRect(50, 190, 121, 31))
+        font = QtGui.QFont()
+        font.setFamily("Agency FB")
+        font.setPointSize(14)
+        font.setBold(True)
+        font.setWeight(75)
+        self.label_5.setFont(font)
+        self.label_5.setObjectName("label_5")
+        self.flightid = QtWidgets.QLineEdit(refreshOrders)
+        self.flightid.setGeometry(QtCore.QRect(220, 190, 231, 31))
+        self.flightid.setObjectName("flightid")
+        self.label_6 = QtWidgets.QLabel(refreshOrders)
+        self.label_6.setGeometry(QtCore.QRect(50, 240, 151, 31))
+        font = QtGui.QFont()
+        font.setFamily("Agency FB")
+        font.setPointSize(14)
+        font.setBold(True)
+        font.setWeight(75)
+        self.label_6.setFont(font)
+        self.label_6.setObjectName("label_6")
+        self.paystate = QtWidgets.QLineEdit(refreshOrders)
+        self.paystate.setGeometry(QtCore.QRect(220, 240, 231, 31))
+        self.paystate.setObjectName("paystate")
+
+        self.retranslateUi(refreshOrders)
+        QtCore.QMetaObject.connectSlotsByName(refreshOrders)
+
+    def retranslateUi(self, refreshOrders):
+        _translate = QtCore.QCoreApplication.translate
+        refreshOrders.setWindowTitle(_translate("refreshOrders", "更新"))
+        self.label.setText(_translate("refreshOrders", "请输入订单号"))
+        self.reok.setText(_translate("refreshOrders", "OK"))
+        self.label_2.setText(_translate("refreshOrders", "请输入客户编号"))
+        self.label_3.setText(_translate("refreshOrders", "请输入票号"))
+        self.label_5.setText(_translate("refreshOrders", "请输入航班号"))
+        self.label_6.setText(_translate("refreshOrders", "请输入付款状态"))
+
